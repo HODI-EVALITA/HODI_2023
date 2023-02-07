@@ -5,7 +5,7 @@ This repository contains:
 - the training set
 - the test set (will be available from May 2, 2023)
 
-The datasets are pasword-protected.
+The datasets are password-protected.
 
 Obtain the password by registering to the task, here: https://forms.gle/RYQ6m2hHvQZDx7vbA
 
