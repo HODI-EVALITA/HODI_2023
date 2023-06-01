@@ -16,7 +16,7 @@ def read_input(submission_path, task):
     elif task.lower() == "a":
         converters_raw = {'id': str, 'homotransphobic': int}
     elif task.lower() == "b":
-        converters_raw = {'id': str, 'rationales': str}
+        converters_raw = {'id': str, 'rationales': lambda x: eval(x)}
 
     run_filelist = [f for f in unzipped.namelist() if
                     ("run" in f) and ("." + task + "." in f.lower()) and (not ('__MACOSX' in f))]
