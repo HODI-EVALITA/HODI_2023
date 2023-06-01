@@ -73,6 +73,8 @@ def f1(predictions, gold):
 	"""
     if len(gold) == 0:
         return 1. if len(predictions) == 0 else 0.
+    else:
+        gold = eval(gold)
     if len(predictions) == 0:
         return 0.
     predictions_set = set(predictions)
