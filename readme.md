@@ -1,8 +1,10 @@
 # Homotransphobia Detection in Italian (HODI) @ EVALITA 2023 
 
-Official repository of [HODI](https://hodi-evalita.github.io/), the shared task on Homotransphobia Detection in Italian at [Evalita 2023](http://www.evalita.it/).
+Official repository of [HODI](https://hodi-evalita.github.io/), the **shared task on Homotransphobia Detection in Italian at [Evalita 2023](http://www.evalita.it/)**.
 
 Fill out this [form](https://forms.gle/RYQ6m2hHvQZDx7vbA) to access the training and testing set, an email notification will be sent with instructions on how to download the data. 
+
+---
 
 **NOTE!** For participants using Windows as OS we suggest unzipping the files with WinRAR zip.
 
@@ -62,6 +64,23 @@ python compute_baseline.py \
 --task a \
 --output_path result.tsv 
 ```
+
+## Reference
+
+If you use the data or code please cite the following paper:
+
+       @inproceedings{hodi2023overview,
+        title = {{HODI at EVALITA 2023: Overview of the Homotransphobia
+        Detection in Italian Task}},
+        author = {Nozza, Debora and Cignarella,
+        Alessandra Teresa and Damo, Greta  and Caselli, Tommaso and Patti, Viviana},
+        booktitle = {{Proceedings of the Eighth Evaluation Campaign of
+        Natural Language Processing and Speech Tools for Italian. Final
+        Workshop (EVALITA 2023)}},
+        publisher = {CEUR.org},
+        year = {2023},
+        month = {September},
+        address = {Parma, Italy} }
 
 ## Contacts
 
